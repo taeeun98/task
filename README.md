@@ -1,4 +1,5 @@
-# 0522 프로그래머스 과제제
+# 0522 프로그래머스 과제
+
 ---
 
 ### 학습한 내용
@@ -9,6 +10,8 @@
 ### 복습 할 내용
 
 ``` bash
+git remote -v // 원격 저장소 연결 확인
+git remote add origin https://github.com/사용자명/레포명.git // 원격 저장소 연결 (처음)
 git init // .git 생성 (초기화)
 git branch // 브랜치 목록 확인
 git checkout -b 브랜치명 // 브랜치 생성
@@ -22,6 +25,7 @@ git branch -D 브랜치명 // 대상 브랜치 삭제
 git push origin main // 원격 푸쉬
 ```
 
+
 ``` bash
 mkdir 폴더명 // 폴더 생성
 cd 폴더명 // 폴더로 이동
@@ -32,5 +36,6 @@ echo 내용 >> 파일명 // 파일 안에 내용 넣기 (마지막에 붙여쓰�
 
 ### 단축키
 **ctrl + shift + p** *검색창*
+
 **ctrl + w** *현재창 닫기*
 
